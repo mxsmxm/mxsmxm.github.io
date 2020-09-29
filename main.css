@@ -1,0 +1,31 @@
+/* 加载字体 */
+@import url("https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Long+Cang|Ma+Shan+Zheng|ZCOOL+KuaiLe|ZCOOL+QingKe+HuangYou|ZCOOL+XiaoWei&display=swap&subset=chinese-simplified");
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background: url("落日.png");
+}
+
+h1 {
+  font-family: "Ma Shan Zheng";
+  font-size: 60px;
+  color: rgb(50, 50, 50);
+}
+
+p {
+  font-family: "Ma Shan Zheng";
+  font-size: 60px;
+  color: rgb(50, 50, 50);
+}
+
+div {
+  position: absolute;
+  top: 200px;
+  left: 900px;
+  width: 800px;
+  height: 600px;
+  /* border-style: solid;
+    border-color: red; */
+  text-align: center;
+}

@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="UTF-8">
-		<title>GitHub网页</title>
-		<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-	</head>
+<head>
+    <!-- 规定网页的字符编码 -->
+    <meta charset="UTF-8">
+    <!-- 控制网页中的部分布局 -->
+    <link rel="stylesheet" type="text/css" href="main.css">
 
-	<body>
-		<button id="on">开</button>
-		<button id="off">关</button>
-		<script>
-			$(document).ready(function(){
-				$("#on").click(()=>{fetch('https://cloud.arest.io/espcl0/led?params=1')});
-				$("#off").click(()=>{fetch('https://cloud.arest.io/espcl0/led?params=0')});
-			});
-		</script>
-	</body>
+    <title>古诗词网页</title>
+</head>
+
+
+<body>
+    <div>
+        <h1>登鹳雀楼</h1>
+        <p>唐-王之涣</p>
+        <p>白日依山尽，黄河入海流。</p>
+        <p>欲穷千里目，更上一层楼。</p>
+    </div>
+</body>
+
 
 </html>
+
