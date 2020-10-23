@@ -2,30 +2,55 @@
 @import url("https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Long+Cang|Ma+Shan+Zheng|ZCOOL+KuaiLe|ZCOOL+QingKe+HuangYou|ZCOOL+XiaoWei&display=swap&subset=chinese-simplified");
 
 body {
+  font-size: 20px;
+  background: url(https://imgkr.cn-bj.ufileos.com/63930aeb-96dd-4f5b-9fe4-dd57685bb8b3.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background: url("落日.png");
+  background-position: center;
+  background-attachment: fixed;
 }
 
-h1 {
-  font-family: "Ma Shan Zheng";
-  font-size: 60px;
-  color: rgb(50, 50, 50);
+.poem_list {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-image: url(./border.svg) 60 40 40 fill;
+  border-width: 20px 20px 20px;
+}
+
+.poem {
+  width: 1000px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.poem h1 {
+  font-family: "Abril Fatface";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 55px;
+  color: #6d6862;
+  text-align: center;
+}
+
+.poem span {
+  position: relative;
+  display: block;
+  font-size: 24px;
+  font-family: Arial;
+  color: rgba(80, 80, 80, 0.6);
+  line-height: 40px;
+  text-align: center;
 }
 
 p {
-  font-family: "Ma Shan Zheng";
-  font-size: 60px;
-  color: rgb(50, 50, 50);
-}
-
-div {
-  position: absolute;
-  top: 200px;
-  left: 900px;
-  width: 800px;
-  height: 600px;
-  /* border-style: solid;
-    border-color: red; */
+  font-size: 36px;
+  font-family: Arial;
+  color: rgba(45, 45, 45, 0.6);
+  line-height: 50px;
   text-align: center;
 }
