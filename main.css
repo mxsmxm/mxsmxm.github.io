@@ -3,11 +3,7 @@
 
 body {
   font-size: 20px;
-  background: url(https://imgkr.cn-bj.ufileos.com/63930aeb-96dd-4f5b-9fe4-dd57685bb8b3.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: antiquewhite;
 }
 
 .poem_list {
