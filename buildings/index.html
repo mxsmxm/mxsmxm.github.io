@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<head>
+    <title>世界著名建筑</title>
+    <meta charset="UTF-8">
+    <!-- 链接外部css文件  -->
+    <style type="text/css">
+        /*  设置背景  */
+        body {
+            background-image: url('imgs/背景.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            margin: 0px;
+        }
+
+        #main {
+            width: 1220px;
+            position: relative;
+            left: 15%;
+            top: 120px;
+            /* border-color: rgba(0, 255, 0, 0.3); */
+            /* border-width: 3px; */
+            /* border-style: solid; */
+            /* border-designer: 15px; */
+
+        }
+
+        .header {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100px;
+            /* Outline */
+            background: rgb(67, 170, 230);
+            display: block;
+            padding: 0%;
+            z-index: 200;
+        }
+
+        #title {
+            color: rgb(0, 0, 0);
+            font-size: 60px;
+            position: relative;
+            left: 40%;
+            top: 38px;
+        }
+
+        #image {
+            position: relative;
+            left: 16%;
+            top: 20%;
+        }
+
+
+        .item {
+            width: 100%;
+            height: 450px;
+            position: relative;
+
+            /* border-color: rgba(0, 0, 0, 0.3);
+            border-width: 3px;
+            border-style: solid;
+            border-designer: 15px; */
+
+            /* background-color: rgba(255, 255, 255, 0.7); */
+            margin-top: 36px;
+            margin-bottom: 36px;
+
+            /* 新增 */
+            background: #FBFBFF;
+            box-shadow: 0px 0px 60px rgba(144, 142, 192, 0.29);
+            border-radius: 10px;
+        }
+
+        .photo {
+            width: 25%;
+            height: 100%;
+            float: left;
+            /* background-color: rgba(255, 0, 255, 0.7); */
+        }
+
+        .content {
+            width: 75%;
+            height: 100%;
+            float: right;
+            /* background-color: rgba(0, 0, 255, 0.7); */
+
+        }
+
+        .left {
+            width: 50%;
+            float: left;
+            /* background-color: rgba(0, 0, 255, 0.7); */
+        }
+
+        .intro {
+            width: 100%;
+            height: 50%;
+            /* background-color: rgba(255, 0, 255, 0.7); */
+            position: relative;
+            left: -4%;
+        }
+
+        .data {
+            width: 100%;
+            height: 50%;
+        }
+
+        h2 {
+            margin: 0px;
+            padding: 10px 10px;
+            /* 新加 */
+            font-size: 30px;
+            line-height: 42px;
+        }
+
+        p {
+            padding: 5px 10px;
+            /* 新加 */
+            font-size: 18px;
+            line-height: 25px;
+            font-style: normal;
+            font-weight: normal;
+        }
+
+        img {
+            height: 56%;
+            padding: 25% 30px;
+
+        }
+
+        p {
+            display: inline;
+            margin: 0px;
+            padding: 10px 5px;
+            font-size: 20px;
+            line-height: 40px;
+            width: 50%;
+        }
+
+        .country,
+        .city,
+        .designer,
+        .height,
+        .done,
+        .age {
+            color: #EE760C;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+        <div id="image">
+        </div>
+        <p id="title"> 世界著名建筑 </p>
+    </div>
+    <div id="main">
+
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/世界贸易中心一号楼.png" alt="世界贸易中心一号楼">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">世界贸易中心一号楼</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">美国</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">纽约</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">迈克尔·阿拉德</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">407</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">2014年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">6</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;世界贸易中心一号大楼，简称“世贸一号楼”（1
+                            WTC），是位于美国纽约曼哈顿下城的摩天大楼。由SOM建筑设计事务所设计，总楼层共地上94层、地下5层，楼高1,776英尺（541米），此高度是为纪念1776年签署的《美国独立宣言》而定的。原称自由塔（英语：Freedom
+                            Tower）, 虽然不少纽约人依旧沿用此名，但在2009年改为现名。 </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/双峰塔.png" alt="双峰塔">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">双峰塔</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">吉隆坡</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">武吉</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">西萨·佩里</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">452</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">1998年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">22</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;双峰塔，又称双子塔、双子星塔、国家石油大厦、佩重纳斯大厦或国油双塔，是位于马来西亚吉隆坡市中心的两栋摩天大楼，也是马来西亚第二高的摩天大楼，该建筑于1998年落成时曾经是世界最高的摩天大楼，但后来被台北101和哈利法塔超越。双峰塔仍然是目前世界上最高的双栋大楼，也是20世纪最高的摩天大楼。如今（截至2020年4月），双峰塔是世界第十九高的大楼。
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/哈利法塔.png" alt="哈利法塔">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">哈利法塔</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">阿联酋</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">迪拜</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">SOM</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">828</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">2010年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">10</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;哈利法塔，又译哈里发塔，是位于阿拉伯联合酋长国迪拜境内的摩天大楼，为当前世界第一高楼与人工构造物，高度为828米，楼层总数169层，造价达15亿美元。哈利法塔最初的原名叫迪拜塔，完工之后才改以哈利法塔为正式名称。在古阿拉伯世界中，哈利法为“伊斯兰世界最高领袖”之意，同时也是历史上阿拉伯帝国统治者的称号。
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/上海中心大厦.png" alt="上海中心大厦">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">上海中心大厦</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">中国</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">上海</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">SOM</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">632</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">2016年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">4</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;上海中心大厦，为中华人民共和国上海市已落成的综合物业发展计划，属于一座超高层地标式摩天大楼，其高度超过附近的上海环球金融中心，当前为世界第二高摩天大楼、世界最高绿建筑及拥有世界上第二高的观景台（第一高为深圳平安金融中心之“云际观光”），同时是现时中国第一高楼。
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/比萨斜塔.png" alt="比萨斜塔">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">比萨斜塔</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">意大利</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">比萨城</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">那诺·皮萨诺</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">55</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">1372年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">649</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;比萨斜塔是一座位于意大利托斯卡纳大区比萨省比萨市城区北面国家建筑群的高塔，与它相邻的大教堂、洗礼堂、墓园均对11世纪至14世纪意大利建筑艺术有巨大影响，故被联合国教育科学文化组织评选为世界遗产。比萨斜塔是比萨城大教堂的独立式钟楼，位于比萨大教堂的后面，是奇迹广场三大建筑之一，始建于1173年，设计为垂直建造，但是在工程开始后不久便由于地基不均匀和土层松软而倾斜，1372年完工，塔身倾斜向东南。
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/大本钟.png" alt="大本钟" style="height: 35%;">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">大本钟</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">英国</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">伦敦</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">奥古斯塔斯·普金</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">96</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">1859年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">161</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;大本钟是伦敦威斯敏斯特宫北端钟楼的大报时钟的昵称，也常代指该钟所在的钟楼伊丽莎白塔
+                            。钟楼坐落在泰晤士河畔，是伦敦的标志之一。于1859年5月31日建成，高320英尺（约合97.5米），是世界第三高钟楼。外墙上有四面巨大的钟表朝向东南西北四个方向，分针有14英尺长（约合4.27米），国会开会期间，钟面会发出光芒。大本钟直径7米，重13.5公吨，为英国最大的钟。
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/新天鹅城堡.png" alt="新天鹅城堡">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">新天鹅城堡</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">德国</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">巴伐利亚</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">Eduard Riedel</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">65</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">1892年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">128</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;新天鹅城堡，又译新天鹅石城堡、新天鹅石宫，是19世纪晚期的建筑，位于今天的德国巴伐利亚西南方，邻近年代较早的高天鹅城堡，距离菲森镇约4公里，离德国与奥地利边界不远。这座城堡是巴伐利亚国王路德维希二世的行宫之一。共有360个房间，其中只有14个房间依照设计完工，其他的346个房间则因为国王在1886年逝世而未完成，在他死后的七个星期，城堡向公众付费开放。是德国境内受拍照最多的建筑物。也是最受欢迎的旅游景点之一。
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="item">
+            <div class="photo">
+                <img src="imgs/胡夫金字塔.png" alt="胡夫金字塔">
+            </div>
+            <div class="content">
+                <div class="data">
+                    <h2 class="name">胡夫金字塔</h2>
+                    <div class="left">
+                        <p> 国家 :</p>
+                        <p class="country">埃及</p>
+                    </div>
+                    <div class="left">
+                        <p> 城市 :</p>
+                        <p class="city">吉萨</p>
+                    </div>
+                    <div class="left">
+                        <p> 设计师 :</p>
+                        <p class="designer">-</p>
+                    </div>
+                    <div class="left">
+                        <p> 高度(米) :</p>
+                        <p class="height">147</p>
+                    </div>
+                    <div class="left">
+                        <p> 竣工时间 :</p>
+                        <p class="done">公元前2463年</p>
+                    </div>
+                    <div class="left">
+                        <p> 建筑年龄(年) :</p>
+                        <p class="age">4483</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p>
+
+                        <a> &nbsp;&nbsp;&nbsp;&nbsp;胡夫金字塔（阿拉伯语：هرم أكبر‎，希腊语：Πυραμίδες της Γκίζα，英文：Pyramid of
+                            Khufu）又称吉萨大金字塔，是位于埃及吉萨三座著名的金字塔中最为古老也是最大的一座。同时也是古代世界七大奇迹中最为古老和唯一尚存的建筑物。金字塔的建造方式有着很多不同的解释以及假说。最广泛接受的假说认为金字塔的修建是通过用人力将巨石从采石场开掘出来，将其提升安放到预定位置这种方式进行的。
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
